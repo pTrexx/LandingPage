@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+
+header{
+    background-color: lightslategrey;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.header_conteudo{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1{
+    margin: 0;
+}
+
+header p{
+    margin-top: 5px;
+}
+
+section{
+    padding: 20px;
+}
+
+.quadro_carrossel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel_imagem{
+    width: 100%;
+    height: auto;
+}
+
+.intro_conteudo{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: darkcyan;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.conteudo{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.calculo{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(63, 172, 176);
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover{
+    background-color: darkcyan;
+}
+
+.calculo button{
+    background-color: royalblue;
+    transition: background-color 0.3s;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.calculo button:hover{
+    background-color: rgb(43, 63, 101);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption{
+    font-size: larger;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 50px;
+}
